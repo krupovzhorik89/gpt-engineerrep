@@ -11,4 +11,5 @@ def test_db():
     db['test2'] = 'test2'
     assert db['test2'] == 'test2'
     assert db['test'] == 'test2'
+    assert db['test'] == 'test3'
     print('test_db passed')
